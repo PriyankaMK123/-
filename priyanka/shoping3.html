@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shop{
+            height: 100vh;
+            background-image: url(f.png);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            
+        }
+        h1{
+            margin: 200px 250px 400px 800px;
+            font-size: 90px;
+            color: aliceblue;
+
+        }
+        .s1{
+            height: 290px;
+           
+        }
+        .s1-ws{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .s1 .online{
+            height: 255px;
+            width: 165px;
+        }
+         .h4{
+            margin: 0px;
+        }
+        .online:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px rgb(200, 26, 26);
+        }
+        img{
+            height:155px ;
+            width:165px ;
+        }
+        .s2{
+            height: 290px;
+             
+        }
+        .s2-ms{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .s2 .online1{
+            height: 175px;
+            width: 165px;
+        }
+        .online1:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px rgb(200, 26, 26);
+        }
+        .s3{
+            height: 290px;
+        }
+        .s3 .online2{
+            height: 175px;
+            width: 165px;
+         }
+         .s3-bg{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .online2:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px rgb(200, 26, 26);
+        }
+        .s4{
+            height: 290px;
+        }
+        .s4 .online3{
+            height: 175px;
+            width: 165px;
+         }
+        .s4-bb{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .online3:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px rgb(200, 26, 26);
+        }
+        .s5{
+            height: 290px;
+        }
+        .s5 .online4{
+            height: 175px;
+            width: 165px;
+         }
+        .s5-mp{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .online4:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px rgb(200, 26, 26);
+        }
+        h2{
+            color: rgb(172, 78, 101);
+            text-align: center;
+            height: 70px;
+            font-size: 50px;
+            margin: 0px 0px 0px 0px;
+        }
+        .main{
+            background-color:rgb(246, 223, 223);
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 70px;
+            background-color: rgb(196, 74, 176);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+         ul{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        li{
+            list-style-type: none;
+
+        }
+        a{
+            text-decoration: none;
+            color:white ;
+        }
+        .cart{
+            height: 50px;
+            width: 50px;
+            border: 1px solid i;
+            margin-right:500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="cart">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+        </div>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+
+        <section class="shop">
+           <h1> <b> GET ALL ORIGINAL PRODUCTS</b></h1>
+             
+        </section>
+        
+
+           <section class="s1"> 
+            <h2>WOMEN SECTION...</h2>
+            <div class="s1-ws">
+                <div class="online">
+                    <img src="w1.webp " alt="">
+                    <h4 class="h4"> Tie Shoulder Layered</h4>
+                    <span>$899/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online">
+                    <img src="p3.png " alt="">
+                    <h4 class="h4">Saree</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online">
+                    <img src="p2.png " alt="">
+                   <h4 class="h4">Mini Dress</h4>
+                   <span>$599/-</span><br>
+                   <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online">
+                    <img src="p1.png " alt="">
+                    <h4 class="h4">Midi Dress</h4>
+                    <span>$499/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online">
+                    <img src=" w5.png" alt="">
+                    <h4 class="h4">Party Wear Saree</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+            </div>
+            </section>
+
+            
+            <section class="s2">
+                <h2>MEN SECTION...</h2>
+                 <div class="s2-ms">
+                    <div class="online1">
+                        <img src="m1.webp " alt="">
+                        <h4 class="h4">Grey Jocket</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online1">
+                        <img src="m2.png " alt="">
+                        <h4 class="h4">Shirt</h4>
+                    <span>$899/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online1">
+                        <img src="m3.png " alt="">
+                        <h4 class="h4">Dress Shirt</h4>
+                        <span>$999/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online1">
+                        <img src="m4.png.webp " alt="">
+                        <h4 class="h4"> Pant-Shirt</h4>
+                    <span>$799/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online1">
+                        <img src="m5.jpg " alt="">
+                        <h4 class="h4"> Party Dress</h4>
+                        <span>$1990/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                 </div>
+            </section>
+            
+
+            <section class="s3">
+                <h2>BABY BOY SECTION...</h2>
+                <div class="s3-bg">
+                      
+                <div class="online2">
+                    <img src=" k4.png " alt="">
+                    <h4 class="h4">Peek Kids</h4>
+                <span>$999/-</span><br>
+                <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online2">
+                    <img src=" k6.png " alt="">
+                    <h4 class="h4">Dhoti Set</h4>
+                <span>$600/-</span><br>
+                <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online2">
+                    <img src="k3.jpg  " alt="">
+                    <h4 class="h4"> Suite</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online2">
+                    <img src=" k5.jpg " alt="">
+                    <h4 class="h4"> Jagwar</h4>
+                <span>$999/-</span><br>
+                <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                <div class="online2">
+                    <img src=" k7.png " alt="">
+                    <h4 class="h4"> Casual-Set</h4>
+                <span>$999/-</span><br>
+                <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                </div> 
+                </div>
+            </section>
+
+            
+            <section class="s4">
+                <h2>BABY GIRL SECTION...</h2>
+                <div class="s4-bb">
+                    <div class="online3">
+                        <img src=" k1.webp " alt="">
+                        <h4 class="h4">Fancy-Dress</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online3">
+                        <img src=" k2.jpg " alt="">
+                        <h4 class="h4">Midi-Gown</h4>
+                        <span>$999/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online3">
+                        <img src="g2.png  " alt="">
+                        <h4 class="h4"> Shorts</h4>
+                        <span>$999/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online3">
+                        <img src="g1.png " alt="">
+                        <h4 class="h4">Frock </h4>
+                        <span>$999/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online3">
+                        <img src=" g3.png" alt="">
+                        <h4 class="h4"> Jum-Sute</h4>
+                    <span>$999/-</span><br>
+                    <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                </div>
+            </section>
+
+            <section class="s5"> 
+                <h2>MAKE-UP PRODUCTS...</h2>
+                <div class="s5-mp">
+                    <div class="online4">
+                        <img src=" r1.png " alt="">
+                        <h4 class="h4"> FITME-FOUNDATION</h4>
+                        <span>$399/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online4">
+                        <img src="r2.png " alt="">
+                        <h4 class="h4"> LIPSTICK</h4>
+                        <span>$399/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online4">
+                        <img src="r3.png" alt="">
+                       <h4 class="h4"> EYE-SHADOW</h4>
+                       <span>$599/-</span><br>
+                       <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online4">
+                        <img src="r4.png " alt="">
+                        <h4 class="h4"> EYE-LINER</h4>
+                        <span>$499/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                    <div class="online4">
+                        <img src=" r5.png" alt="">
+                        <h4 class="h4">MASKARA</h4>
+                        <span>$799/-</span><br>
+                        <button style="background-color: rgb(240, 186, 224); border-radius:10px ;">Shop Now</button>
+                    </div> 
+                </div>
+                </section>
+    </main>
+</body>
+</html>
